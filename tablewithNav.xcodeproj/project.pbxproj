@@ -17,6 +17,7 @@
 		37DBCF7629585FDC00AAD997 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBCF7529585FDC00AAD997 /* MovieCell.swift */; };
 		37DBCF782958616C00AAD997 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBCF772958616C00AAD997 /* Movie.swift */; };
 		37DBCF7C29586D7800AAD997 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBCF7B29586D7800AAD997 /* DataManager.swift */; };
+		37DBCF7E29597CEE00AAD997 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37DBCF7D29597CEE00AAD997 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		37DBCF7529585FDC00AAD997 /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		37DBCF772958616C00AAD997 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		37DBCF7B29586D7800AAD997 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		37DBCF7D29597CEE00AAD997 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		37DBCF732958562E00AAD997 /* VIews */ = {
 			isa = PBXGroup;
 			children = (
+				37DBCF7529585FDC00AAD997 /* MovieCell.swift */,
 				37DBCF61295855BE00AAD997 /* Main.storyboard */,
 			);
 			path = VIews;
@@ -98,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				37DBCF5F295855BE00AAD997 /* ViewController.swift */,
-				37DBCF7529585FDC00AAD997 /* MovieCell.swift */,
+				37DBCF7D29597CEE00AAD997 /* DetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				37DBCF66295855BE00AAD997 /* tablewithNav.xcdatamodeld in Sources */,
 				37DBCF7629585FDC00AAD997 /* MovieCell.swift in Sources */,
 				37DBCF5E295855BE00AAD997 /* SceneDelegate.swift in Sources */,
+				37DBCF7E29597CEE00AAD997 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
