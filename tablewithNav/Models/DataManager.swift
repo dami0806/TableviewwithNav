@@ -30,6 +30,11 @@ class DataManager{
         return moviedataArray
     }
     
+    func updateMovieData(){
+        let movie = Movie(movieImage: UIImage(named: "totoro.jpeg"), movieName: "이웃집 토토로", movieDescription: "숲속에 살고 있는 신비로운 생명체 ‘토토로’를 만나 신비한 모험이야기")
+        moviedataArray.append(movie)
+    }
+    
     
     
 }
